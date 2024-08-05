@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-style: italic;
+    font-family: system-ui;
+    color: orangered;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: brown;
+    
+}
+
+.hero p {
+    font-size: 14px;
+    margin: 5px 0;
+  
+}
+
+.join {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.join h2 {
+    font-size: 18px;
+    color: #27ae60;
+}
+
+.join h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.join p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.benefit {
+    text-align: center;
+    width: 45%;
+    margin: 10px 0;
+}
+
+.benefit img {
+    max-width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.benefit h4 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: green;
+}
+
+.benefit p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.steps {
+    padding: 5px;
+    background-color: #f8f8f8;
+    text-align: left;
+}
+.steps steps-item {
+    padding: 5px;
+    background-color: #f8f8f8;
+    text-align: left;
+}
+
+.steps h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+                                                                                                                        
+
+ .card-body h5 { 
+    color: brown;
+
+}
+
+.card {
+    margin: 25px 0 25px; 
+}
+.card-img-top  {
+    height: 200px;
+    width: 100%;
+}
+.rating-stars{
+    color: orange;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.btn btn-primary {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+footer {    
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
